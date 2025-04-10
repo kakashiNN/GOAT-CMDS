@@ -4,19 +4,25 @@
       "cmd": "ss",
       "author": "dipto",
       "update": "10 April 2025",
-      "status": "Public"
+      "status": "Active"
     },
     {
       "cmd": "uptime",
       "author": " Eren Yeh ",
       "update": "10 April 2025",
-      "status": "Public"
+      "status": "Active"
     },
     {
       "cmd": "inbox",
       "author": " EREN",
       "update": "10 April 2025",
-      "status": "Public"
+      "status": "Active"
+    },
+    {
+      "cmd": "anisar",
+      "author": " vex_kshitiz",
+      "update": "10 April 2025",
+      "status": "Active"
     }
   ]
 }
