@@ -1,7 +1,7 @@
 const axios = require("axios");
 
-const availableCmdsUrl = "https://raw.githubusercontent.com/XosAyan/cmdstore/main/availableCmds.json";
-const cmdUrlsJson = "https://raw.githubusercontent.com/XosAyan/cmdstore/main/cmdUrls.json";
+const availableCmdsUrl = "https://raw.githubusercontent.com/itachi-prime99/EREN/main/availableCmds.json";
+const cmdUrlsJson = "https://raw.githubusercontent.com/itachi-prime99/EREN/main/cmdUrls.json";
 const ITEMS_PER_PAGE = 10;
 
 async function runCommand({ api, event, args }) {
