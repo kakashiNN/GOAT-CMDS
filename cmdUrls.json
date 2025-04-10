@@ -1,6 +1,18 @@
 {
-  "ss": "https://raw.githubusercontent.com/itachi-prime99/EREN/commands/ss.js",
+  "ss": "https://raw.githubusercontent.com/itachi-prime99/EREN/main/commands/ss.js",
+  "inbox": "https://raw.githubusercontent.com/itachi-prime99/EREN/main/commands/inbox.js",
   "uptime": "https://raw.githubusercontent.com/itachi-prime99/EREN/main/uptime.js",
-  "inbox": "https://raw.githubusercontent.com/itachi-prime99/EREN/commands/inbox.js",
- }
-
+  "info": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/info.js",
+  "owner": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/owner.js",
+  "td": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/truthdare.js",
+  "groupinfo": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/groupinfo.js",
+  "botinfo": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/botinfo.js",
+  "join": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/join.js",
+  "album2": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/album2.js",
+  "cmdstore": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/cmdstore.js",
+  "whitelist": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/whitelist.js",
+  "ramadan": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/ramadan.js",
+  "hack": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/hack.js",
+  "animepic": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/animepic.js",
+  "welcome": "https://raw.githubusercontent.com/YourUsername/YourRepoName/main/commands/welcome.js"
+}
