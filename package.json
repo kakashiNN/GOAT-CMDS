@@ -1,0 +1,15 @@
+{
+  "name": "cmdstore",
+  "version": "1.0.0",
+  "description": "A stylish command store for Goat Bot",
+  "main": "cmdstore.js",
+  "scripts": {
+    "start": "node cmdstore.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  },
+  "author": "Eren",
+  "license": "MIT"
+}
