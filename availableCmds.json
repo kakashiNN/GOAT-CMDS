@@ -1,28 +1,378 @@
 {
   "cmdName": [
     {
+      "cmd": "help",
+      "author": "ArYAN",
+      "update": "03/20/2025",
+      "status": "on"
+    },
+{
+      "cmd": "cmdstore",
+      "author": "ArYAN",
+      "update": "03/20/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "out",
+      "author": "Alfred",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "balance",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "delete",
+      "author": "Subash",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "unsend",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
       "cmd": "ss",
+      "author": "Samir Œ",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "flux",
+      "author": "Dipto",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "marjia",
+      "author": "redwan",
+      "update": "03/22/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "profile",
+      "author": "Samir Œ",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "kick",
+      "author": "NTKhang",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "tag",
       "author": "dipto",
-      "update": "10 April 2025",
-      "status": "Active"
+      "update": "03/21/2025",
+      "status": "ON"
     },
-    {
-      "cmd": "uptime",
-      "author": " Eren Yeh ",
-      "update": "10 April 2025",
-      "status": "Active"
+{
+      "cmd": "group",
+      "author": "Samir Thakuri",
+      "update": "03/21/2025",
+      "status": "ON"
     },
-    {
-      "cmd": "inbox",
-      "author": " EREN",
-      "update": "10 April 2025",
-      "status": "Active"
+{
+      "cmd": "fblink",
+      "author": "Xemon",
+      "update": "03/21/2025",
+      "status": "ON"
     },
-    {
+{
+      "cmd": "fakechat2",
+      "author": "Vex_kshitiz",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "fakechat",
+      "author": "Dipto",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "clear",
+      "author": "kshitiz",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "mylove",
+      "author": "Arafat",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "myfd",
+      "author": "ArYAN",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "mygf",
+      "author": "ArYAN",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "ytb",
+      "author": "Nyx",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "poli",
+      "author": "samir",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "bby",
+      "author": "Dipto",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "baby",
+      "author": "Dipto",
+      "update": "03/21/2025",
+      "status": "ON"
+    },
+{
+      "cmd": "autodl",
+      "author": "Dipto",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "accept",
+      "author": "King Monsterwith",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "4k",
+      "author": "fahim_noob",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "font",
+      "author": "",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "join",
+      "author": "𝐀𝐒𝐈𝐅 𝐱𝟔𝟗",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "uid2",
+      "author": "NIL",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "promote",
+      "author": "Samir B. Thakuri",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "countryinfo",
+      "author": "𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "wl",
+      "author": "ArYAN",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "pending",
+      "author": "Xemon",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "album",
+      "author": "MAHABUB",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "restart",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "pinterest",
+      "author": "ArYAN",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "imgur",
+      "author": "ArYAN",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "all",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "busy",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "callad",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "daily",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "count",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "filter",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "notification",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "tiktok",
+      "author": "ArYAN",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "tid",
+      "author": "NTkhang",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "file",
+      "author": "ArYAN",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "catbox",
+      "author": "Nazrul",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "code",
+      "author": "Dipto",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "slot",
+      "author": "OtinXSandip",
+      "update": "03/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "sing",
+      "author": "ArYAN",
+      "update": "04/04/2025",
+      "status": "on"
+    },
+{
+      "cmd": "emojimix",
+      "author": "ArYAN",
+      "update": "04/04/2025",
+      "status": "on"
+    },
+{
+      "cmd": "gf",
+      "author": "ArYAN",
+      "update": "04/04/2025",
+      "status": "on"
+    },
+{
+      "cmd": "eval",
+      "author": "NTkhang",
+      "update": "04/09/2025",
+      "status": "on"
+    },
+{
+      "cmd": "rankup",
+      "author": "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+      "update": "04/10/2025",
+      "status": "on"
+    },
+{
+      "cmd": "audio",
+      "author": "ArYAN",
+      "update": "04/10/2025",
+      "status": "on"
+    },
+{
+      "cmd": "setrole",
+      "author": "NTKhang",
+      "update": "04/10/2025",
+      "status": "on"
+    },
+{
+      "cmd": "gf2",
+      "author": "ArYAN",
+      "update": "04/17/2025",
+      "status": "on"
+    },
+{
+      "cmd": "imgbb",
+      "author": "ArYAN",
+      "update": "04/21/2025",
+      "status": "on"
+    },
+{
+      "cmd": "tinfo",
+      "author": "ArYAN",
+      "update": "04/30/2025",
+      "status": "on"
+    },
+    
+ {
       "cmd": "anisar",
-      "author": " vex_kshitiz",
-      "update": "10 April 2025",
-      "status": "Active"
+      "author": "vex_khitiz",
+      "update": "04/30/2025",
+      "status": "on"
     }
+
   ]
 }
