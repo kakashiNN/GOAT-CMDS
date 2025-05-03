@@ -1,39 +1,42 @@
-const axios = require("axios");
-const baseApiUrl = async () => {
-  const base = await axios.get(
-    `https://raw.githubusercontent.com/Mostakim0978/D1PT0/refs/heads/main/baseApiUrl.json`,
-  );
-  return base.data.api;
-};
+module.exports = {
+    config: {
+        name: 'screenshot',
+        aliases: ['ss'],
+        version: '1.2',
+        author: 'Samir Œ',
+        shortDescription: 'Send a screenshot photo from a URL.',
+        longDescription: 'Sends a screenshot photo from a specified URL.',
+        category: 'owner',
+        guide: {
+            en: '{pn} [URL] | [device]',
+        },
+    },
+    onStart: async function({
+        message,
+        event,
+        args
+    }) {
+      const fuck = args.join(' ');
 
-module.exports.config = {
-  name: "ss",
-  version: "1.0",
-  author: "dipto",
-  role: 2,
-  description: "Take a screenshot of a website",
-  category: "utility",
-  guide: { en: "screenshot [URL]" },
-  coolDowns: 5,
-};
-exports.onStart = async function ({ api, event, args }) {
-  const url = args.join(" ");
-  if (!url) {
-    return api.sendMessage("Please provide a URL.", event.threadID);
-  }
-  try {
-    api.sendMessage(
-      {
-        body: "Screenshot Saved <😽",
-        attachment: await global.utils.getStreamFromURL(
-          `${await baseApiUrl()}/ss?url=${url}`,
-        ),
-      },
-      event.threadID,
-      event.messageID,
-    );
-  } catch (error) {
-    console.error("Error taking screenshot:", error);
-    api.sendMessage("Failed to take a screenshot.", event.threadID);
-  }
-};
+        try {
+            const argString = args.join(' ');
+            const [providedURL, device] = argString.split('|').map(arg => arg.trim());
+            if (!providedURL) {
+                return message.reply('Please provide a URL.')
+            }
+            const deviceMap = {
+                '1': 'desktop',
+                '2': 'tablet',
+                '3': 'mobile',
+            };
+            const selectedDevice = device && deviceMap[device] ? deviceMap[device] : 'mobile';
+            const api = `https://www.noobs-api.rf.gd/dipto/ss?url=${encodeURIComponent(providedURL)}&device=${selectedDevice}`;
+            message.reply({
+                attachment: await global.utils.getStreamFromURL(api),
+            })
+        } catch (error) {
+            console.error(error);
+            message.reply('An error occurred while processing the screenshot command.')
+        }
+    },
+}
