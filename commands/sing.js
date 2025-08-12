@@ -8,7 +8,7 @@ module.exports = {
 		name: "music",
 		aliases: ["audio", "song", "sing"],
 		version: "0.0.1",
-		author: "ArYAN",
+		author: "udated by NIROB",
 		countDown: 5,
 		role: 0,
 		shortDescription: "Download audio or video from YouTube",
